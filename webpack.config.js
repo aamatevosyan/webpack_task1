@@ -21,11 +21,12 @@ module.exports = {
       },
       {
         test: /\.csv$/,
-        loader: "file-loader",
+        loader: 'csv-loader',
         options: {
-          name: "[name].[ext]",
-          outputPath: "data/",
-        },
+          dynamicTyping: true,
+          header: true,
+          skipEmptyLines: true
+        }
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,

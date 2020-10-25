@@ -2,6 +2,9 @@
   font-family: 'Roboto';
   src: url(../fonts/Roboto.ttf) format('truetype');
 }
+h2 {
+  font-family: "Roboto";
+}
 
 
 /*# sourceMappingURL=main.css.map*/

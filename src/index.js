@@ -5,10 +5,8 @@ import Triangle from "./js/triangle";
 
 import "./less/main.less";
 
-import loadCSV from "./js/csv";
-import csv from "./assets/data/data.csv"
-
-loadCSV("./data/data.csv");
+import csv from "./assets/data/data.csv";
+console.log(csv);
 
 function component() {
   const element = document.createElement("div");
